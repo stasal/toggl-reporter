@@ -27,5 +27,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter")
     compile("org.springframework:spring-web")
     compile("com.fasterxml.jackson.core:jackson-databind")
+    compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
+    compile("org.projectlombok:lombok")
     testCompile("junit:junit")
 }
